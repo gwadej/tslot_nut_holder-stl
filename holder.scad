@@ -1,8 +1,6 @@
 ht = 2.85;
-//L=3.08;
-//s=5.34/2;   // L * sqrt(3)/2
 measured_width=5.34;
-fudge=1.07;
+fudge=1.2;
 s=(measured_width/2)*fudge;
 L=s/0.866;
 w=5.5;
