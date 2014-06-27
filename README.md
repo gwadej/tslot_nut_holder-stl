@@ -18,10 +18,19 @@ mailing list was to tape the nut in place and then remove the tape afterwards.
 
 ## My Solution
 
-During yet another session of tweaking the hardware, I realized that this would
-not be a problem if I had something *T*-shaped that holds the nut, fits the
-slot, and can't fall through because of the top of the *T*. By giving the
-holder a bottom that the nut rests on, we also spread the force applied to the
-nut during tightening. This solved a problem I was already seeing with parts of
-the plywood beginning to break down under some parts of the nut. Since the nut
-isn't perfectly flat, some parts were compressed more than others.
+After one too many session opening the base of my Thing-o-Matic and having the
+hex nuts fall out of the t-slots, I decided to do something about it. This
+design should hold the M3 hex nuts firmly in a t-slot, while still making them
+easy to remove if possible. The bottom of the holder also serves to spread the
+force from the nut to reduce potential damaging effects of compression on the
+wood.
+
+Because the object is small and the tolerances are pretty tight, the printing
+can be a little finicky. The included OpenSCAD model contains commented
+parameters that should make adjusting the object pretty easy.
+
+I have only printed this in ABS. It is very important that you print the holder
+with an infill of 100%. Otherwise the bottom layer tends not to be solid.
+
+I've had good luck printing with a thickness of 0.2mm and a width/thickness of
+2.
